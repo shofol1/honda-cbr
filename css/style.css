@@ -1,3 +1,45 @@
+/* global fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header background color  */
+
+header {
+    background-color: #264653;
+}
+
+
+/* image grey scale effets  */
+
 .greyscale {
     filter: grayscale(100%);
+}
+
+
+/* hr tag design  */
+
+hr {
+    width: 58.5px;
+    color: #E76F51;
+    border: 3px solid #E76F51;
+}
+
+
+/* span text color  */
+
+.text-span {
+    color: #E76F51;
+}
+
+
+/* button color  */
+
+.btn-my {
+    background-color: #E76F51;
+    color: #fff;
+    padding: 5px 20px;
 }
